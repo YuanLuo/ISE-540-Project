@@ -1,1 +1,9 @@
 pip install git+https://github.com/tweepy/tweepy.git
+import tweepy as tw
+# your bearer token
+
+# my_api_key = "8w5w7fsYMpjTHvzUWI865Jb4M"
+# my_api_secret = "8Us6udXVzOPFPpxLoH13mJcYKdZVYJiTPiC9IYO5pH47wPkRq6"
+MY_BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAM8EiQEAAAAA5Dbv%2Fdv9aEtUGSrLNKTGHn4Rj0Y%3Dc42pfgDaENBL8HZw5N0nmiC82VM7tGbk0G4hzF0A77Ms0rhbxC"
+# create your client 
+client = tw.Client(bearer_token = MY_BEARER_TOKEN)
